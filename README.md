@@ -3,17 +3,17 @@
 Music Application that is powered by the Spotify Web API and designed like a Tiktok style feed.
 
 ## Goals
-✅listen the song
-✅play/pause the song
-✅swipe up/down to navigate to the next song
-✅automatically navigate to next song on completion of current song
+- listen the song ✅
+- play/pause the song ✅
+- swipe up/down to navigate to the next song ✅
+- automatically navigate to next song on completion of current song ✅
 
 ## Features
--Created a custom carousel of playlists that fetches weekly updated tracks
--On selection of a Carousel card, the audio player plays the tracks from the relative playlist
+- Created a custom carousel of playlists that fetches weekly updated tracks
+- On selection of a Carousel card, the audio player plays the tracks from the relative playlist
 
 
-##S teps to run the Application on your device
+## Steps to run the Application on your device
 
 -Visit 'https://interstellar-sunset-382245.postman.co/home'
 -Under Workspaces, create a 'New Collection'
