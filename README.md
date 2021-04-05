@@ -1,16 +1,21 @@
 # spotifytiktok
 
-A new Flutter project.
+Music Application that is powered by the Spotify Web API and designed like a Tiktok style feed.
 
-## Getting Started
+**Goals** 
+listen the song
+play/pause the song
+swipe up/down to navigate to the next song
+automatically navigate to next song on completion of current song
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+**Steps to run the Application on your device:**
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-Visit 'https://interstellar-sunset-382245.postman.co/home'
+-Under Workspaces, create a 'New Collection'
+-Choose Type to be 'OAuth 2.0'
+-Under Callback URL, paste your Spotify Callback from Spotify Developers
+-Under AuthURL, AccessTokenURL, type in 'Spotify' and select the option.
+-Enter the ClientID and SecretKey from Spotify Developers.
+-Select Get Access Token
+-Once you have received the Access Token, paste it in the AccessToken field in main.dart
