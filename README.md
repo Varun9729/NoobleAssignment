@@ -1,7 +1,13 @@
 # spotifytiktok
 
 Music Application that is powered by the Spotify Web API and designed like a Tiktok style feed.
+
+
 <img src="Image/PlayListScreen.png" width="100" >
+
+<img src="Image/LoadingScreen.png" width="100" >
+
+<img src="Image/TrackScreen.png" width="100" >
 
 ## Goals
 - listen the song ✅
