@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:spotifytiktok/pages/musicPlayer.dart';
 import 'package:spotifytiktok/main.dart';
+import 'package:liquid_progress_indicator/liquid_progress_indicator.dart';
 
 PageController pgcontroller = PageController();
 
@@ -112,9 +113,13 @@ class _MusicPageState extends State<MusicPage> with TickerProviderStateMixin {
                   return Center(child: Text('Press button to start'));
                 case ConnectionState.waiting:
                   return Center(
-                      child: CircularProgressIndicator(
-                    backgroundColor: Colors.white,
-                  ));
+                      child: LiquidLinearProgressIndicator(
+              backgroundColor: Colors.white,
+              valueColor: AlwaysStoppedAnimation(Colors.pink),
+              borderColor: Colors.red,
+              borderWidth: 5.0,
+              direction: Axis.vertical,
+            ),);
                 default:
                   if (snapshot.hasError)
                     return Center(child: Text('Error: ${snapshot.error}'));

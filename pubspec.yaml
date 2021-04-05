@@ -23,13 +23,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  animated_text_kit: ^3.0.2
   audioplayers: ^0.17.2
   carousel_slider: ^2.1.0
   font_awesome_flutter: ^8.0.0
   google_fonts: ^1.1.0
   http: ^0.12.1
+  liquid_progress_indicator: ^0.3.2
+  percent_indicator: ^3.0.1
   velocity_x: ^1.4.1
-  animated_text_kit: ^3.0.2
 
 dev_dependencies:
   flutter_test:
