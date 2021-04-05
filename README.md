@@ -15,7 +15,7 @@ Music Application that is powered by the Spotify Web API and designed like a Tik
 
 ## Steps to run the Application on your device
 
-- Visit 'https://interstellar-sunset-382245.postman.co/home'
+- Visit 'https://www.postman.com/'
 - Under Workspaces, create a 'New Collection'
 - Choose Type to be 'OAuth 2.0'
 - Under Callback URL, paste your Spotify Callback from Spotify Developers
